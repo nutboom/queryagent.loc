@@ -1,0 +1,68 @@
+#app-stat-wrapper{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#app-stat-percentage{
+    width:30%;
+    margin-bottom: 20px;
+}
+
+#app-stat-percentage-first-line{
+    margin-bottom: 10px;
+}
+
+#app-stat-percentage-first-line-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#app-stat-percentage-first-line-percent{
+    float: right;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(42, 153, 200);
+}
+
+.meter {
+    height: 10px;  /* Can be anything */
+    position: relative;
+    background: white;
+    border-radius: 5px;
+}
+
+.meter > span {
+    display: block;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(42, 153, 200);
+    position: relative;
+    overflow: hidden;
+}
+
+.app-stat-counter-block{
+    display: inline-block;
+    background: white;
+    padding: 25px;
+    border: 1px solid rgb(222, 220, 221);
+    border-radius: 10px;
+    width: 19vw;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.app-stat-counter-number{
+    display: block;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(42, 153, 200);
+    margin-bottom: 10px;
+}
+
+.app-stat-counter-title{
+    font-weight: 500;
+    font-size: 13px;
+}

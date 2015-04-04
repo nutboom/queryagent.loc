@@ -1,0 +1,201 @@
+#page{
+    min-height: 830px;
+}
+
+#target-audience-form.form-horizontal .control-label{
+    width: 285px;
+}
+
+#target-audience-form.form-horizontal .controls{
+    margin-left: 300px;
+}
+
+#target-audience-form .treeview ul{
+    background: none;
+}
+
+label.inline_with_checkbox{
+	display: inline!important;
+}
+
+#countriesModal{
+    width: 650px;
+}
+
+.form-horizontal .controls.images_question,
+.form-horizontal .controls.answers_question{
+    
+}
+
+.form-horizontal .type_classf_question{
+    width: 460px;
+}
+
+.form-horizontal .type_classf_question label.checkbox{
+    float: right;
+    width: 190px;
+}
+
+.form-horizontal .type_classf_question label.checkbox label{
+    text-align: left;
+}
+
+.conditions {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.pictures_question input[type=file] {
+    opacity:0;
+    filter:alpha(opacity:0);
+    font-size:199px;
+    cursor:pointer;
+    padding:0px;
+    margin:0px;
+    border:none;
+    margin-left:-450px;
+}
+
+.pictures_question.empty_img {
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.pictures_question {
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.pictures_question > img {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+#conditionsModal ul li {
+    margin-top: 10px;
+}
+
+.modal { cursor: auto; }
+
+.modal-content {
+    clear: both;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.modal-content p {
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+ul.inline li{
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 20px 0 0;
+  vertical-align: middle;
+}
+
+.stat-audience-scale-score > div{
+    height: 40px;
+}
+.stat-audience-scale-score .progress{
+    float: right;
+}
+
+.modal.fade {
+    top: 125%!important;
+}
+
+.modal.fade.in {
+    top: 50%!important;
+}
+
+.btn-group > .tooltip + .btn {
+  margin-left: -1px;
+}
+
+.stat-palette-color-1,
+.stat-palette-color-2,
+.stat-palette-color-3,
+.stat-palette-color-4,
+.stat-palette-color-5,
+.stat-palette-color-6,
+.stat-palette-color-7,
+.stat-palette-color-8{
+    margin-right: 10px;
+    padding: 0 5px;
+}
+
+.stat-palette-color-1{
+    background-color: rgb(188, 224, 46)}
+
+.stat-palette-color-2{
+    background-color: rgb(224, 100, 46)}
+
+.stat-palette-color-3{
+    background-color: rgb(224, 214, 46)}
+
+.stat-palette-color-4{
+    background-color: rgb(46, 151, 224)}
+
+.stat-palette-color-5{
+    background-color: rgb(176, 46, 224)}
+
+.stat-palette-color-6{
+    background-color: rgb(224, 46, 117)}
+
+.stat-palette-color-7{
+    background-color: rgb(92, 224, 46)}
+
+.stat-palette-color-8{
+    background-color: rgb(224, 176, 46)}
+#footer{
+    position: relation; bottom: 0; width: 100%; padding: 15px 0; left: 0; text-align: center; border-top: 1px solid #EEA;}
+
+
+.preview_questions>.group_question>.block_question {
+    margin-bottom: 25px;
+}
+
+.preview_questions>.group_question>.group {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+.preview_questions>.group_question>.block_question>.question {
+    padding: 5px 10px;
+    background: #f6f6f6;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+
+.htooltip span { /* Внешний вид нашего тултипа */
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #000;
+    margin-left: -380px;
+    margin-top: -65px;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    visibility: hidden;
+    width: 350px;
+    z-index: 10;
+
+
+}
+
+.htooltip:hover span { /* По hover отображаем тултип */
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}

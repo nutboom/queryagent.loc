@@ -1,0 +1,17 @@
+<?php
+
+return array(
+        'db' => array(
+            'tablePrefix' => 'tbl_',
+            'connectionString' => 'mysql:host=localhost;dbname=query_agent;',
+            'emulatePrepare' => true,
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+            'schemaCachingDuration' => 3600,
+        ),
+        'memcache_servers' => array(
+                array('host'=>'localhost', 'port'=>11211, 'weight'=>60), //ваши настройки memcached
+        ),
+        'apns_type' => 'sandbox', // sandbox, production
+);

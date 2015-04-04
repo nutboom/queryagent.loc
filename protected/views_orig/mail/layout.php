@@ -1,0 +1,1 @@
+<?php echo $this->renderInternal($body['view'], array('body'=>$body['content'])); ?>

@@ -1,0 +1,99 @@
+.jqDynaForm .add {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    background-image: url(add.png);
+    cursor: pointer
+}
+.jqDynaForm .delete {
+    height: 16px;
+    background: url(delete.png) no-repeat right center;
+    line-height:16px;
+    margin-top:5px;
+    padding-right:21px;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+    /*position:absolute;*/
+    display: block;
+    z-index: 10
+}
+.jqDynaForm .delete.delete-group{
+    background-image: url(delete-group.png);
+    margin-top: 40px;
+}
+
+.jqDynaForm .delete.answer {
+    display: none !important
+}
+.jqDynaForm .hover .delete.answer {
+    display: none !important
+}
+.jqDynaForm .header {
+
+}
+.jqDynaForm .list,
+.jqDynaForm .list_groups,
+.jqDynaForm .list_question,
+.jqDynaForm .list_picture,
+.jqDynaForm .list_answer {
+    min-height: 10px
+}
+.jqDynaForm .list .item,
+.jqDynaForm .list_groups .item,
+.jqDynaForm .list_question .item,
+.jqDynaForm .list_picture .item,
+.jqDynaForm .list_answer .item {
+    cursor: move
+}
+.jqDynaForm .footer {
+    height: 5px;
+    border-bottom: 1px solid green;
+    margin-top: 10px
+}
+.jqDynaForm .deleting {
+    border: 1px solid red
+}
+.jqDynaForm .moving {
+    border: 1px solid #d9d9d9;
+    background-color: #f2f2f2
+}
+
+legend.pagelegend {
+    padding:20px;
+    background:#bfe5f8;
+    margin-top:20px;
+}
+.jqDynaForm .item {
+    position: relative;
+}
+.jqDynaForm .delete {
+    position: absolute;
+    right:20px;
+}
+.jqDynaForm .item {
+    margin-top:0;
+}
+.jqDynaForm .item .fa{
+     font-size:14px;
+}
+.modal {
+     display:none;
+}
+.jqDynaForm .answer-container .footer {
+     display:none;
+}
+.jqDynaForm .answersHeader {
+    text-align: right;
+}
+.jqDynaForm legend a.addLinq{
+    font-size:14px;
+    line-height:14px;
+}
+.jqDynaForm .footer {
+    display:none !important;
+}
+.jqDynaForm .list_question > .item {
+     border-bottom: 1px dashed #ccc;
+    padding: 0 0 40px 0;
+}

@@ -1,0 +1,797 @@
+2015/04/03 22:25:50 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '148.251.124.173',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '37803',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.0',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428089150,
+)
+2015/04/03 22:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/03 22:56:41 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'HTTP_CACHE_CONTROL' => 'no-cache',
+  'HTTP_CONNECTION' => 'Keep-Alive',
+  'HTTP_PRAGMA' => 'no-cache',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => '',
+  'HTTP_FROM' => 'bingbot(at)microsoft.com',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '157.55.39.21',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '33444',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428091001,
+)
+2015/04/03 22:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/03 23:32:11 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_CONNECTION' => 'Keep-alive',
+  'HTTP_ACCEPT' => 'text/plain,text/html',
+  'HTTP_FROM' => 'googlebot(at)googlebot.com',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '66.249.78.16',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '62216',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428093131,
+)
+2015/04/03 23:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 01:11:51 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_CONNECTION' => 'Keep-Alive',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'HTTP_FROM' => 'support@search.yandex.ru',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '141.8.189.109',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '60780',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428099111,
+)
+2015/04/04 01:11:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 08:32:42 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_CONNECTION' => 'Keep-alive',
+  'HTTP_ACCEPT' => 'text/plain,text/html',
+  'HTTP_FROM' => 'googlebot(at)googlebot.com',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '66.249.78.16',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '55159',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428125562,
+)
+2015/04/04 08:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 08:54:56 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51573',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428126896,
+)
+2015/04/04 08:54:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 08:55:04 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => 's0f73el95q17jbrqm7tkujm3r0',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=s0f73el95q17jbrqm7tkujm3r0',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51575',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428126904,
+)
+2015/04/04 08:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 08:55:19 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => 's0f73el95q17jbrqm7tkujm3r0',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=s0f73el95q17jbrqm7tkujm3r0',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51580',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428126919,
+)
+2015/04/04 08:55:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 08:55:23 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => 's0f73el95q17jbrqm7tkujm3r0',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=s0f73el95q17jbrqm7tkujm3r0',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51582',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428126923,
+)
+2015/04/04 08:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 08:56:57 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => 's0f73el95q17jbrqm7tkujm3r0',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=s0f73el95q17jbrqm7tkujm3r0',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51606',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428127017,
+)
+2015/04/04 08:56:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 08:57:05 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => 's0f73el95q17jbrqm7tkujm3r0',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=s0f73el95q17jbrqm7tkujm3r0',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '51608',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428127025,
+)
+2015/04/04 08:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 09:11:43 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '52042',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428127903,
+)
+2015/04/04 09:11:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 09:11:48 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => '7dgv7miveom1qr5nbd1cib4hk5',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=7dgv7miveom1qr5nbd1cib4hk5',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '52046',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428127908,
+)
+2015/04/04 09:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 09:14:09 [info] [application] User: Guest (ID: 0)
+
+$_COOKIE=array (
+  'PHPSESSID' => '7dgv7miveom1qr5nbd1cib4hk5',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT_ENCODING' => 'gzip',
+  'HTTP_USER_AGENT' => 'Query Agent 1.2.1 (iPhone; iPhone OS 7.1.1; ru_RU)',
+  'HTTP_CONNECTION' => 'close',
+  'HTTP_COOKIE' => 'PHPSESSID=7dgv7miveom1qr5nbd1cib4hk5',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '213.138.84.192',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '52116',
+  'REDIRECT_URL' => '/api/v1/users/register/',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/api/v1/users/register/',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428128049,
+)
+2015/04/04 09:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "api/v1/users/register".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('api/v1/users/re...')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/v1/users/register/
+---
+2015/04/04 09:21:35 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_ACCEPT_ENCODING' => 'deflate, gzip',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '5.9.116.101',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '41310',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428128495,
+)
+2015/04/04 09:21:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 09:32:18 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '136.243.16.7',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '52623',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.0',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428129138,
+)
+2015/04/04 09:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 12:43:59 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_ACCEPT' => '*/*',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '78.46.174.197',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '41466',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.0',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428140639,
+)
+2015/04/04 12:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2015/04/04 15:18:48 [info] [application] User: Guest (ID: 0)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'admin.queryagent.ru',
+  'HTTP_HOST' => 'admin.queryagent.ru',
+  'HTTP_CONNECTION' => 'Keep-Alive',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'HTTP_FROM' => 'support@search.yandex.ru',
+  'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.2.23 (CentOS) Server at admin.queryagent.ru Port 443</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.2.23 (CentOS)',
+  'SERVER_NAME' => 'admin.queryagent.ru',
+  'SERVER_ADDR' => '176.9.120.168',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '141.8.189.123',
+  'DOCUMENT_ROOT' => '/var/www/cavegroup/data/www/admin.queryagent.ru',
+  'SERVER_ADMIN' => 'vadim@queryagent.ru',
+  'SCRIPT_FILENAME' => '/var/www/cavegroup/data/www/admin.queryagent.ru/index.php',
+  'REMOTE_PORT' => '37971',
+  'REDIRECT_URL' => '/robots.txt',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/robots.txt',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME' => 1428149928,
+)
+2015/04/04 15:18:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "robots.txt".' in /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/web/CWebApplication.php(142): CWebApplication->runController('robots.txt')
+#1 /var/www/cavegroup/data/www/admin.queryagent.ru/yii/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/cavegroup/data/www/admin.queryagent.ru/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

@@ -1,0 +1,503 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.admin.queryagent.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2666                
+POS_VISITOR 7041                
+POS_DAY 8551                
+POS_DOMAIN 3384                
+POS_LOGIN 3616                
+POS_ROBOT 3771                
+POS_WORMS 4092                
+POS_EMAILSENDER 4223                
+POS_EMAILRECEIVER 4366                
+POS_SESSION 8691                
+POS_SIDER 8896                
+POS_FILETYPES 4501                
+POS_DOWNLOADS 4791                
+POS_OS 4839                
+POS_BROWSER 4964                
+POS_SCREENSIZE 5349                
+POS_UNKNOWNREFERER 5423                
+POS_UNKNOWNREFERERBROWSER 5612                
+POS_ORIGIN 5694                
+POS_SEREFERRALS 5835                
+POS_PAGEREFS 5979                
+POS_SEARCHWORDS 6250                
+POS_KEYWORDS 6402                
+POS_MISC 2329                
+POS_ERRORS 6461                
+POS_CLUSTER 3472                
+POS_SIDER_404 6600                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140903235645 1723 453681 9559069613108
+FirstTime 0
+LastTime 20140903235612
+LastUpdate 20140904000347 0 0 0 0 0
+TotalVisits 25                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 45                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 2 2876
+1 0 0 0 0 0 0
+2 0 0 0 4 5 23807
+3 0 0 0 1 1 1438
+4 0 0 0 0 0 0
+5 0 0 0 1 1 1438
+6 1 3 58214 5 5 14547
+7 0 0 0 2 4 70961
+8 0 0 0 0 0 0
+9 14 16 27344 9 9 39008
+10 60 424 4638050 31 33 55690
+11 101 312 3470139 83 84 141202
+12 302 618 4917838 176 227 1054426
+13 94 429 3831389 128 132 310109
+14 19 115 1829101 45 50 223586
+15 25 275 3569644 17 24 104347
+16 16 279 1699398 27 35 405309
+17 3 9 141900 9 10 40473
+18 21 80 656755 13 15 34165
+19 0 1 0 10 11 86795
+20 29 175 2407564 49 51 606477
+21 13 16 244919 8 8 19614
+22 19 128 1537827 23 26 297526
+23 79 581 4290883 29 33 122883
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 796 3461 33320965
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 269 1815108 20140903232500 0
+yandex 22 470620 20140903235645 0
+googlebot 9 160352 20140903151432 0
+bot[\s_+:,\.\;\/\\-] 2 26544 20140903170856 0
+robot 1 9648 20140902191211 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 1122 5500905 0 0
+eot 2 76410 0 0
+png 368 4239192 0 0
+woff 36 1041584 0 0
+ru 1 12158 0 0
+swf 6 6426 0 0
+php 2 457154 0 0
+html 147 1448967 0 0
+js 1157 10296811 0 0
+jpg 10 183808 0 0
+Unknown 602 10030443 0 0
+gif 8 27107 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 6
+winxp 2
+winvista 229
+linux 646
+win7 1184
+ios 130
+macosx 1262
+Unknown 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 19
+firefox32.0 348
+safari7.0 54
+firefox3.0.7 2
+android 1
+chrome37.0.2062.102 2
+opera9.80 2
+firefox31.0 477
+safari7.0.6 1155
+iphone 133
+chrome36.0.1985.135 5
+chrome36.0.1985.143 1133
+mozilla 53
+chrome33.0.1750.117 2
+chrome30.0.1599.12785 1
+chrome35.0.1916.153 1
+chrome38.0.2125.24 1
+msie9.0 43
+chrome37.0.2062.103 5
+chrome37.0.2062.94 43
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Opera/9.80_(Android;_Opera_Mini/22.0.1485/35.4053;_U;_ru)_Presto/2.8.119_Version/11.10 20140901104847
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 155 184
+From1 0 0
+From2 0 0
+From3 10 59
+From4 631 3218
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.queryagent.ru 7 7
+http://www.queryagent.co 2 2
+http://porn-for-free-xxx.com 1 1
+http://panel.queryagent.ru 0 49
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 222 36887
+302 120 0
+500 14 381363
+404 81 737045
+301 13 4160
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/downloadios.png 20 -
+/upload/avatar/1896eaca.png 1 -
+/robots.txt 18 -
+/regonline.png 20 -
+/privet.png 20 -
+/upload/questions/2 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 45
+78.31.100.58 526 2174 20683249 20140903171824
+176.103.105.247 73 527 3747860 20140903235612 20140903233155 /user/registration/captcha/v/5407725cd613b
+83.220.237.178 46 47 73113 20140903125530
+83.220.238.140 35 40 419357 20140903124824
+176.103.98.24 23 177 1755979 20140901225835
+176.103.96.23 20 119 1868338 20140902204751
+195.162.22.197 14 19 106075 20140902181845
+83.149.9.82 14 14 13227 20140903094721
+188.255.94.14 13 15 234508 20140901212812
+37.112.241.215 11 67 925898 20140902223856
+5.255.199.65 0 1 41789 
+83.220.236.193 0 2 91601 
+109.194.78.68 0 1 0 
+213.33.233.74 0 1 10411 
+37.9.68.98 0 1 49812 
+95.108.220.163 0 1 41789 
+94.180.146.23 8 56 563247 20140902204243
+82.145.221.175 0 1 1744 
+217.66.158.19 0 1 0 
+213.87.135.150 0 1 3678 
+213.135.85.246 0 1 1744 
+195.218.146.178 0 1 10411 
+95.153.175.108 0 1 10411 
+195.208.48.195 3 43 421107 20140901161819
+2.94.114.237 4 44 428292 20140901151533
+95.108.255.2 0 1 14540 
+217.66.158.89 0 1 10411 
+66.249.81.109 0 4 105690 
+176.114.202.145 0 1 3706 
+5.165.142.238 0 1 3706 
+178.159.58.20 0 1 3706 
+46.173.45.8 0 1 3706 
+128.69.97.216 2 41 71238 20140903154004
+82.145.223.139 0 1 1744 
+109.167.205.148 0 1 1744 
+62.192.250.61 0 1 3706 
+31.42.224.251 0 1 1744 
+5.79.142.177 1 1 52764 20140902063818
+31.42.232.145 0 2 1744 
+195.16.57.26 3 43 1474802 20140903154145
+176.28.65.180 0 1 3706 
+188.162.14.84 0 1 3706 
+37.9.68.97 0 1 49812 
+109.188.124.78 0 1 1744 
+5.255.199.67 0 1 3406 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20140901 74 688 5383057 9
+20140902 307 1330 14683151 7
+20140903 415 1443 13254757 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 3
+2mn-5mn 3
+0s-30s 9
+30s-2mn 4
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 170
+/quiz/respondents 222 660 0 0
+/quiz 28 688748 4 5
+/quiz/189/StructureQuiz 28 1590447 0 0
+/login 28 371656 7 3
+/registration 25 1320327 4 1
+/ 22 1179779 1 0
+/Fonts/font-awesome-4/fonts/fontawesome-webfont.woff 21 844208 0 1
+/quiz/188/StructureQuiz 20 737634 0 0
+/js/bootstrap/dist/fonts/glyphicons-halflings-regular.woff 15 197376 0 0
+/respondent/groups 13 185873 0 0
+/api/v1/quiz/28/ 2 2312 0 0
+/user/registration/captcha/v/5407723d30592 1 3034 0 0
+/user/registration/captcha/v/540569354a204 1 3222 0 0
+/quiz/189/StructureQuiz/setOrderBy 3 0 0 0
+/catalog/mail 3 53760 0 0
+/user/registration/captcha/v/5404640b01136 1 3102 0 0
+/api/v1/quiz/42/application/comments/ 1 62 0 0
+/import.php 2 457154 0 0
+/api/v1/quiz/25/ 3 1887 0 0
+/user/finance 1 14075 0 0
+/user/registration/captcha/v/540771b4103ea 1 3451 0 0
+/quiz/188/Applications 1 22172 0 0
+/user/registration/captcha/v/54056767377ee 1 3346 0 0
+/api/v1/users/profile/ 9 3179 0 0
+/api/v1/quiz/36/comments/ 3 186 0 0
+/user/registration/captcha/v/5404c16e0be80 1 3252 0 0
+/quiz/186/Applications 1 22190 0 0
+/quiz/186/StructureQuiz 8 846231 0 0
+/catalog/smstpl 2 30970 0 0
+/user/registration/captcha/v/540771323e941 1 3263 0 0
+/licenses 3 38046 0 0
+/api/v1/quiz/17/comments/ 2 124 0 0
+/api/v1/quiz/44/ 2 1254 0 0
+/quiz/189/collection 6 96533 0 1
+/user/registration/captcha/v/5404bae12115b 1 3320 0 0
+/user/registration/captcha/v/54076eca4416d 1 3584 0 0
+/user/registration/captcha/v/5404554e11943 1 3242 0 0
+/api/v1/quiz/23/ 2 732 0 0
+/catalog/mail/update/id/new_quiz 2 30045 0 0
+/quiz/189/launch 4 53904 0 0
+/registration_co 10 527671 0 0
+/api/v1/quiz/134/application/ 1 51 0 0
+/api/v1/quiz/39/application/ 1 51 0 0
+/quiz/graph/ 6 5965 0 0
+/user/registration/captcha/v/540771a1080da 1 3051 0 0
+/quiz/186/collection 5 80931 0 0
+/api/v1/quiz/134/comments/ 2 124 0 0
+/user/registration/captcha/v/54056fedac0ac 1 3818 0 0
+/quiz/186/export 4 10055 1 1
+/api/v1/quiz/175/comments/ 1 62 0 0
+/quiz/186/statistics 7 801694 0 1
+/api/v1/logout/ 2 102 0 1
+/catalog/mail/update/id/forgot_password 1 14703 0 0
+/api/v1/quiz/42/application/ 1 51 0 0
+/quiz/186/applications 3 64698 0 1
+/respondent/groups/view/id/28 7 105966 0 0
+/api/v1/quiz/27/application/ 1 51 0 0
+/user/registration/captcha/v/5405669dbb2a5 1 2964 0 0
+/user/client 5 72171 0 0
+/api/v1/quiz/134/questions/ 2 24708 0 0
+/user/registration/captcha/v/5404cdb7d7b9c 1 3255 0 0
+/quiz/188/StructureQuiz/conditionsDisplay/2 3 19971 0 0
+/api/v1/quiz/42/photos/%7B4AFB76E8-694F-32B6-199E-434428CD34AB%7D/ 1 115 0 0
+/api/v1/quiz/26/ 1 1206 0 0
+/user/registration/captcha/v/5405695e896b5 1 3280 0 0
+/respondent/groups/update/id/28 4 71756 0 0
+/api/v1/quiz/25/comments/ 3 1197 0 0
+/user/registration/captcha/v/540569bd16943 1 3340 0 0
+/api/v1/quiz/ 7 50010 1 1
+/user/registration/captcha/v/540770bf1450f 1 3271 0 0
+/api/v1/quiz/27/comments/ 1 1409 0 0
+/licenses/tariffs/update/id/3 1 17717 0 0
+/api/v1/quiz/158/comments/ 3 186 0 0
+/api/v1/quiz/26/comments/ 1 259 0 0
+/api/v1/authorize/ 1 142 0 0
+/api/v1/quiz/44/application/ 1 51 0 0
+/quiz/185/StructureQuiz 1 57865 1 0
+/quiz/188/launch 6 80112 0 0
+/catalog/mail/update/id/pay_license 2 32180 0 0
+/user/registration/captcha/v/5404cde68f82c 1 3411 0 1
+/quiz/189/targetAudience/create 2 83342 0 0
+/api/v1/quiz/39/comments/ 1 923 0 0
+/catalog/mail/update/id/moderation_fail 3 43734 0 0
+/quiz/186/StructureQuiz/conditionsDisplay/5 2 15158 0 0
+/site 1 13733 0 0
+/api/v1/quiz/23/application/ 1 51 0 0
+/api/v1/quiz/158/ 3 1748 0 0
+/api/v1/quiz/62/ 1 492 0 0
+/catalog/mail/update/id/registration 2 29846 0 0
+/quiz/188/update 9 179283 0 0
+/quiz/create 3 56289 0 0
+/api/v1/users/profile/avatar 2 230 0 0
+/api/v1/quiz/175/ 1 1686 0 0
+/api/v1/quiz/62/comments/ 1 62 0 0
+/thankyou 1 10748 0 0
+/quiz/189/targetAudience 3 46192 0 0
+/user/activation/activation/activkey/9909b162400e9afaa191770fb6c4c54d/email/workrg%40yandex.ru 1 12158 0 0
+/respondent/groups/remove/id/136 1 0 0 0
+/api/v1/users/register/ 1 69 0 0
+/api/v1/users/profile/balance/ 13 1114 1 3
+/api/v1/quiz/17/application/ 1 51 0 0
+/licenses/tariffs 4 62528 0 0
+/user/registration/captcha/v/540772577ee6a 1 3057 0 0
+/api/v1/quiz/42/comments/ 4 248 0 0
+/api/v1/quiz/36/ 3 2862 0 0
+/quiz/188/statistics 1 64616 0 0
+/catalog/mail/update/id/left_license 1 14180 0 0
+/user/registration/captcha/v/5407725cd613b 1 3018 0 0
+/licenses/tariffs/index 3 47214 0 0
+/quiz/186/StructureQuiz/conditionsDisplay/3 2 3672 0 0
+/api/v1/quiz/42/ 5 2374 0 1
+/user/registration/captcha/v/5405677370994 1 3389 0 0
+/user/registration/captcha/v/5405678fbfe53 1 3357 0 0
+/quiz/precreate 5 71927 0 0
+/api/v1/quiz/23/questions/ 1 964 0 0
+/user/registration/captcha/v/5407714d2380a 1 3419 0 0
+/api/v1/quiz/17/questions/ 1 1116 0 0
+/user/registration/captcha/v/5406c47824bec 1 3059 0 0
+/api/v1/quiz/17/ 3 1964 0 0
+/catalog/mail/index 1 17926 0 0
+/quiz/188/targetAudience/create 7 290578 0 0
+/Fonts/font-awesome-4/fonts/fontawesome-webfont.eot 2 76410 0 1
+/api/v1/dictionaries/ 4 128782 4 0
+/catalog 4 51298 0 0
+/user/client/create 1 13392 0 0
+/user/registration/captcha/v/5407722837d8e 1 3044 0 0
+/api/v1/users/profile/confirm/ 1 51 0 0
+/user/registration/captcha/v/54077151e9b6f 1 2911 0 0
+/quiz/189/update 5 96390 0 0
+/api/v1/quiz/39/questions/ 1 967 0 0
+/api/v1/quiz/44/questions/ 1 1165 0 0
+/api/v1/quiz/42/questions/ 2 3990 0 0
+/user/registration/captcha/v/5406c47e1b301 1 2824 0 0
+/respondent/groups/create 4 71565 0 0
+/quiz/188/StructureQuiz/setOrderBy 1 0 0 0
+/api/v1/quiz/23/comments/ 1 2697 0 0
+/quiz/186/StructureQuiz/conditionsDisplay/2 1 1808 0 0
+/api/v1/quiz/28/comments/ 2 124 0 0
+/api/v1/quiz/44/comments/ 1 668 0 0
+/licenses/tariffs/update/id/2 1 17712 0 0
+/api/v1/quiz/27/ 2 2440 0 0
+/api/v1/quiz/28/questions/ 1 1552 0 0
+/quiz/185/collection 1 16254 0 0
+/api/v1/users/profile/device/ 1 51 0 0
+/respondent/groups/index 1 14557 0 0
+/user/registration/captcha/v/5406fe77cb6ab 1 3162 0 0
+/api/v1/quiz/25/questions/ 1 7835 0 0
+/catalog/mail/update/id/add_in_group 2 30304 0 0
+/quiz/188/collection 7 112303 0 0
+/user/registration/captcha/v/540568bc267fa 1 3113 0 0
+/mission 6 83048 1 0
+/user/registration/captcha/v/540771575d3f0 1 3208 0 0
+/user/registration/captcha/v/54077134cd058 1 3215 0 0
+/images/clipboard.swf 6 6426 0 0
+/quiz/186/StructureQuiz/conditionsDisplay/6 2 15286 0 1
+/api/v1/quiz/42/photos/%7BC98E0E2A-9516-6AB2-984B-877DBB1B96AB%7D/ 1 116 0 0
+/user/registration/captcha/v/54077235b7945 1 3156 0 0
+/user/registration/captcha/v/5407722acf8b5 1 2643 0 0
+/api/v1/quiz/39/ 2 884 0 0
+/api/v1/quiz/134/ 3 2883 0 0
+/page/contractOffer 1 18772 0 0
+/api/v1/captcha 1 134 0 0
+/quiz/188/targetAudience 7 108823 0 0
+/catalog/mail/update/id/moderation_success 4 58283 0 0
+/quiz/186/StructureQuiz/conditionsDisplay/4 3 13830 0 1
+/user/registration/captcha/v/5405694201b4f 1 3274 0 0
+/quiz/185/export 1 1192 0 0
+/user/client/create/quiz/0 1 13620 0 0
+/licenses/tariffs/update/id/4 4 70860 0 0
+/api/v1/quiz/27/questions/ 1 3783 0 0
+END_SIDER

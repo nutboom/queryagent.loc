@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/form.css" />
+
+	<link rel="stylesheet" type="text/css" href="/assets/57785125/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/assets/57785125/css/bootstrap-yii.css" />
+<script type="text/javascript" src="/assets/b5ae97bd/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/57785125/js/bootstrap.js"></script>
+<title>Query Agent - Ошибка</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+        <div id="mainmenu">
+                <div class="navbar-fixed-1 navbar navbar-inverse navbar-fixed-top"><div class="navbar-inner"><div class="container"><a class="btn btn-navbar" data-toggle="collapse" data-target="#collapse_0"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a href="/" class="brand">Query Agent</a><div class="nav-collapse" id="collapse_0" /></div></div></div></div>        </div><!-- mainmenu -->
+
+        <div class="main-top">
+            
+            <div id="content">
+	
+<h2>Ошибка 404</h2>
+
+<div class="error">
+Невозможно обработать запрос &quot;upload/avatar/7c65e9a.png&quot;.</div></div><!-- content -->
+        </div>
+
+	<div class="clear"></div>
+
+</div><!-- page -->
+<div id="footer">
+        Copyright &copy; 2013 by Cave group.&nbsp;
+        All Rights Reserved.
+</div><!-- footer -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('a[rel="tooltip"]').tooltip();
+jQuery('a[rel="popover"]').popover();
+jQuery('#collapse_0').collapse({'parent':false,'toggle':false});
+});
+/*]]>*/
+</script>
+</body>
+</html>

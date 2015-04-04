@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<link rel="stylesheet" type="text/css" href="/assets/529f2ad6/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/assets/529f2ad6/css/bootstrap-yii.css" />
+<script type="text/javascript" src="/assets/5e174f61/jquery.js"></script>
+<script type="text/javascript" src="/assets/529f2ad6/js/bootstrap.js"></script>
+<title>Query Agent - Ошибка</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" type="text/css" href="/js/bootstrap/dist/css/bootstrap.css" />
+
+	<link rel="stylesheet" type="text/css" href="/js/jquery.gritter/css/jquery.gritter.css" />
+
+	<link rel="stylesheet" type="text/css" href="/Fonts/font-awesome-4/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="/js/jquery.nanoscroller/nanoscroller.css" />
+	<link rel="stylesheet" type="text/css" href="/js/jquery.easypiechart/jquery.easy-pie-chart.css" />
+	<link rel="stylesheet" type="text/css" href="/js/bootstrap.switch/bootstrap-switch.css" />
+	<link rel="stylesheet" type="text/css" href="/js/bootstrap.datetimepicker/css/bootstrap-datetimepicker.min.css" />
+	<link rel="stylesheet" type="text/css" href="/js/jquery.select2/select2.css" />
+	<link rel="stylesheet" type="text/css" href="/js/bootstrap.slider/css/slider.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+	<link rel="stylesheet" type="text/css" href="/js/fuelux/css/fuelux.css">
+
+
+	<script type="text/javascript" src="/js/jquery.flot/jquery.flot.js"></script>
+	<script type="text/javascript" src="/js/jquery.flot/jquery.flot.pie.js"></script>
+	<script type="text/javascript" src="/js/jquery.flot/jquery.flot.resize.js"></script>
+	<script type="text/javascript" src="/js/jquery.flot/jquery.flot.labels.js"></script>
+	<script type="text/javascript" src="/js/jquery.flot/jquery.flot.time.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.icheck/icheck.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
+	<div id="head-nav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header col-sm-2">
+				<a href="/" title="On main">
+					<img src="/images/logo.png" id="qaLogo" alt="QueryAgent" />
+				</a>
+			</div>
+							<div class="col-sm-3 rounded nCImage right"></div>
+						<!--/.nav-collapse -->
+		</div>
+	</div>
+	
+	<div id="cl-wrapper">
+		
+		<div class="container-fluid" id="pcont" >
+			<div class="cl-mcont">
+	            	            <div id="content">
+	
+<h2>Ошибка 404</h2>
+
+<div class="error">
+Невозможно обработать запрос &quot;upload/avatar/1e76097a.png&quot;.</div></div><!-- content -->
+	         </div>
+		</div>
+		<script type="text/javascript" src="/js/jquery.nanoscroller/jquery.nanoscroller.js"></script>
+		<script type="text/javascript" src="/js/jquery.sparkline/jquery.sparkline.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.easypiechart/jquery.easy-pie-chart.js"></script>
+		<script type="text/javascript" src="/js/jquery.ui/jquery-ui.js"></script>
+		<script type="text/javascript" src="/js/jquery.nestable/jquery.nestable.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.switch/bootstrap-switch.min.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.select2/select2.min.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.slider/js/bootstrap-slider.js"></script>
+		<script type="text/javascript" src="/js/jquery.gritter/js/jquery.gritter.min.js"></script>
+		<script type="text/javascript" src="/js/behaviour/general.js"></script>
+		<script type="text/javascript" src="/js/ecode.js"></script>
+		<script>
+            (function () {
+                App.init();
+            })(window.jQuery);
+
+			$(document).ready(function() {
+                $(document).on('click', ".dropdown-menu li", function(){
+                    $(this).parent().parent().find('.btn').not('.dropdown-toggle').html($(this).text());
+                });
+			});
+        </script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('a[rel="tooltip"]').tooltip();
+jQuery('a[rel="popover"]').popover();
+});
+/*]]>*/
+</script>
+</body>
+
+</html>

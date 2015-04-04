@@ -1,0 +1,122 @@
+.login-form {
+    background: #fff;
+    padding:20px 5px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 600px;
+}
+.login-form h2 {
+    color: #5b7180;
+    font-size: 17pt;
+    font-weight: 100;
+}
+.login-form input.error {
+    border-color:#e36974;
+}
+.login-form .cetnerText {
+    text-align: center;
+}
+.login-form .form-group.other {
+    margin-top: 50px;
+}
+.login-form .tarif-block {
+    width: 100%;
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.login-form .tarif-block .tarif__element {
+    text-align: center;
+    padding:5px 0;
+    position: relative;
+}
+.login-form .tarif-block .tarif__element .price {
+    color: #c5c5c5;
+    font-size: 19pt;
+}
+.login-form .tarif-block .tarif__element h1 {
+    color: #9e9e9e;
+    font-size: 19pt;
+    font-weight: 900;
+}
+.login-form .tarif-block.active {
+    background: #4fc1e9;
+    color: #fff;
+}
+.login-form .tarif-block.active .tarif__element h1 {
+    color: #fff;
+}
+
+.login-form .tarif-block.active .tarif__element .price {
+    color: #fff;
+}
+.login-form .tarif-block .tarif__element .price .fa-rouble {
+    font-size: 15pt;
+}
+.login-form .captcha-block {
+    float: left;
+    width:300px;
+}
+.login-form .captcha img {
+    border: 1px solid #b9b9b9;
+    margin: 10px;
+}
+.login-form .free {
+    font-weight: 100;
+}
+.login-form .captchaField {
+    width: 245px;
+    height: 40px;
+    display: inline-block;
+}
+.login-form .tarif__element input.nc_iCheck {
+    width: 14px;
+    height: 14px;
+    visibility: hidden;
+}
+.login-form .tarif__element:last-child:before {
+    width: 14px;
+    height: 15px;
+    background-image: url("/images/radio-sprite.png");
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 46%;
+}
+.login-form .tarif-block.active .tarif__element:last-child:before {
+    background-position: -14px 0;
+}
+#register-block {
+    width: 500px;
+    float: right;
+}
+.login-form label {
+    font-weight: 300;
+}
+#register-block button {
+    width: 100%;
+    text-transform: uppercase;
+}
+.login-form .checkbox-layer {
+    width: 20px;
+    height: 20px;
+    background-repeat:  no-repeat;
+    background-position: 0 -20px;
+    background-image: url("/images/checkbox_sprite.png");
+    float:left;
+    margin-right:5px;
+    cursor: pointer;
+}
+.login-form .checkbox-layer.checkbox-layer__active {
+    background-position: 0 0;
+}
+.login-form .repCheckbox {
+    display: none;
+}
+#login-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+#register-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
