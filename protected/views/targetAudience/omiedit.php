@@ -252,8 +252,7 @@
 
 
             <div class="aud_attr_limit">
-                Ограничение по количеству респондентов:<br>
-                опросить не более <input type="text" value="<?=$audModel->limit?>" name="limit" style="width: 70px; margin-left: 5px;">
+                Желаемый размер выборки (не менее 100 чел.)<input type="text" value="<?=$audModel->limit?>" name="limit" style="width: 70px; margin-left: 5px;">
             </div>
 
             <input type="submit" value="Сохранить" class="btn btn-primary" style="margin: 10px;">
