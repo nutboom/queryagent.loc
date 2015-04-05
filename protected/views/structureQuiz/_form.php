@@ -27,6 +27,23 @@ $this->widget('bootstrap.widgets.TbAlert', array(
 	</div>
 <?php $this->endWidget(); ?>
 
+<?php $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'reqQuest')); ?>
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h4>Запрос на разработку анкеты</h4>
+    </div>
+<form action="/user/finance/requestForQuestionnaire" method="post">
+    <input type="hidden" name="quiz_id" value="<?=$quiz->quiz_id?>">
+    <div class="modal-body" id="reqQuestBody">
+        <span>Сформулируйте в свободной форме вашу бизнес задачу, которую Вы хотите решить с помощью исследования и наши специалисты подготовят для Вас анкету опроса.
+        Стоимость разработки анкеты - 5000 руб.</span><br>
+        <textarea rows="5" style="width: 100%" name="reqQuestDescription"></textarea>
+    </div>
+    <button class="btn btn-primary" style="margin: 15px;" type="submit" name="saveAndRedirect">Отправить запрос</button>
+</form>
+
+<?php $this->endWidget(); ?>
+
 <?php $this->beginWidget('bootstrap.widgets.TbModal', array('id'=>'saveTemplate')); ?>
 	<div class="modal-header">
 		<a class="close" data-dismiss="modal">&times;</a>
@@ -87,7 +104,19 @@ $this->widget('bootstrap.widgets.TbAlert', array(
 	</div>
 	<?php $this->endWidget(); ?>
 <?php $this->endWidget(); ?>
-
+<div id="reqQuest-wrapper">
+<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'buttonType' => 'submit',
+    'type' => 'primary',
+    'label' => 'Оставить завявку на разработку анкеты',
+    'htmlOptions'=>array(
+        'class'=>'btn btn-primary',
+        'data-toggle'=>'modal',
+        'data-target'=>'#reqQuest',
+    ),
+)); ?>
+</div>
+<div style="clear:both;"></div>
 <?php
 	$form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 		'id'=>'structure-quiz-form',
@@ -97,7 +126,7 @@ $this->widget('bootstrap.widgets.TbAlert', array(
 	));
 ?>
 	<div class="step-pane <?php echo $quiz->type?>__class">
-		<div class="no-padding nCForm-group">
+		<div class="no-padding nCForm-group" style="margin: 0;">
 			<div class="col-sm-7">
 				<h3 class="hthin"><?php echo Yii::t('app', 'Content '.$quiz->type); ?>: «<?php echo $quiz->title; ?>»</h3>
 			</div>

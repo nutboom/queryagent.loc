@@ -219,4 +219,11 @@ class FinanceController extends Controller {
 		);
 	}
 	*/
+
+    public function actionRequestForQuestionnaire()
+    {
+        $quiz_id = $_POST['quiz_id'];
+        $quizModel = Quiz::model()->findByPk($quiz_id);
+        var_dump($quizModel);
+    }
 }

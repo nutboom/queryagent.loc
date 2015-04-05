@@ -795,3 +795,276 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/robots.txt
 ---
+2015/04/05 20:31:06 [info] [application] User: choptver (ID: 153)
+
+$_POST=array (
+  'quiz_id' => '281',
+  'reqQuestDescription' => '',
+  'saveAndRedirect' => '',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'e4tp8aunb44sp2nhlhts2ee3h3',
+  'cabbb1323d6e92de72f7e2baea426b12' => '5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs:103:"eef58c9d354cc8ff8ad679ee299dd225c1c9d271a:4:{i:0;s:3:"153";i:1;s:8:"choptver";i:2;i:2592000;i:3;a:0:{}}";',
+  '_ym_visorc_23332327' => 'w',
+  '_ga' => 'GA1.2.1027098907.1428165285',
+  '_gat' => '1',
+)
+
+$_SESSION=array (
+  'cabbb1323d6e92de72f7e2baea426b12__id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12__name' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12__states' => 
+  array (
+  ),
+  'cabbb1323d6e92de72f7e2baea426b12email' => 'tver@chopchop.me',
+  'cabbb1323d6e92de72f7e2baea426b12username' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12create_at' => '2014-09-23 15:49:08',
+  'cabbb1323d6e92de72f7e2baea426b12lastvisit_at' => '0000-00-00 00:00:00',
+  'cabbb1323d6e92de72f7e2baea426b12balance' => '66999.99',
+  'cabbb1323d6e92de72f7e2baea426b12user_id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12first_name' => 'Администратор',
+  'cabbb1323d6e92de72f7e2baea426b12last_name' => 'Chop-Chop',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'queryagent.loc',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'queryagent.loc',
+  'HTTP_HOST' => 'queryagent.loc',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '49',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_ORIGIN' => 'https://queryagent.loc',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_REFERER' => 'https://queryagent.loc/quiz/281/StructureQuiz',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,bg;q=0.2',
+  'HTTP_COOKIE' => 'PHPSESSID=e4tp8aunb44sp2nhlhts2ee3h3; cabbb1323d6e92de72f7e2baea426b12=5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs%3A103%3A%22eef58c9d354cc8ff8ad679ee299dd225c1c9d271a%3A4%3A%7Bi%3A0%3Bs%3A3%3A%22153%22%3Bi%3A1%3Bs%3A8%3A%22choptver%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B; _ym_visorc_23332327=w; _ga=GA1.2.1027098907.1428165285; _gat=1',
+  'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.4\\ext;c:\\openserver\\modules\\php\\PHP-5.4\\pear;c:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.4;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.2\\bin;c:\\openserver\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)',
+  'SERVER_NAME' => 'queryagent.loc',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/OpenServer/domains/queryagent.loc',
+  'SERVER_ADMIN' => '[no address given]',
+  'SCRIPT_FILENAME' => 'C:/OpenServer/domains/queryagent.loc/index.php',
+  'REMOTE_PORT' => '24617',
+  'REDIRECT_URL' => '/user/finance/requestForQuestionnaire',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/user/finance/requestForQuestionnaire',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1428255066.2690001,
+  'REQUEST_TIME' => 1428255066,
+  'argv' => 
+  array (
+  ),
+  'argc' => 0,
+)
+2015/04/05 20:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "requestForQuestionnaire".' in C:\OpenServer\domains\queryagent.loc\yii\web\CController.php:484
+Stack trace:
+#0 C:\OpenServer\domains\queryagent.loc\yii\web\CController.php(271): CController->missingAction('requestForQuest...')
+#1 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(283): CController->run('requestForQuest...')
+#2 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(142): CWebApplication->runController('user/finance/re...')
+#3 C:\OpenServer\domains\queryagent.loc\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\queryagent.loc\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/finance/requestForQuestionnaire
+HTTP_REFERER=https://queryagent.loc/quiz/281/StructureQuiz
+---
+2015/04/05 20:32:27 [info] [application] User: choptver (ID: 153)
+
+$_POST=array (
+  'quiz_id' => '281',
+  'reqQuestDescription' => '',
+  'saveAndRedirect' => '',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'e4tp8aunb44sp2nhlhts2ee3h3',
+  'cabbb1323d6e92de72f7e2baea426b12' => '5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs:103:"eef58c9d354cc8ff8ad679ee299dd225c1c9d271a:4:{i:0;s:3:"153";i:1;s:8:"choptver";i:2;i:2592000;i:3;a:0:{}}";',
+  '_gat' => '1',
+  '_ga' => 'GA1.2.1027098907.1428165285',
+  '_ym_visorc_23332327' => 'w',
+)
+
+$_SESSION=array (
+  'cabbb1323d6e92de72f7e2baea426b12__id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12__name' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12__states' => 
+  array (
+  ),
+  'cabbb1323d6e92de72f7e2baea426b12email' => 'tver@chopchop.me',
+  'cabbb1323d6e92de72f7e2baea426b12username' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12create_at' => '2014-09-23 15:49:08',
+  'cabbb1323d6e92de72f7e2baea426b12lastvisit_at' => '0000-00-00 00:00:00',
+  'cabbb1323d6e92de72f7e2baea426b12balance' => '66999.99',
+  'cabbb1323d6e92de72f7e2baea426b12user_id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12first_name' => 'Администратор',
+  'cabbb1323d6e92de72f7e2baea426b12last_name' => 'Chop-Chop',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'queryagent.loc',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'queryagent.loc',
+  'HTTP_HOST' => 'queryagent.loc',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '49',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_ORIGIN' => 'https://queryagent.loc',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_REFERER' => 'https://queryagent.loc/quiz/281/StructureQuiz',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,bg;q=0.2',
+  'HTTP_COOKIE' => 'PHPSESSID=e4tp8aunb44sp2nhlhts2ee3h3; cabbb1323d6e92de72f7e2baea426b12=5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs%3A103%3A%22eef58c9d354cc8ff8ad679ee299dd225c1c9d271a%3A4%3A%7Bi%3A0%3Bs%3A3%3A%22153%22%3Bi%3A1%3Bs%3A8%3A%22choptver%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B; _gat=1; _ga=GA1.2.1027098907.1428165285; _ym_visorc_23332327=w',
+  'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.4\\ext;c:\\openserver\\modules\\php\\PHP-5.4\\pear;c:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.4;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.2\\bin;c:\\openserver\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)',
+  'SERVER_NAME' => 'queryagent.loc',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/OpenServer/domains/queryagent.loc',
+  'SERVER_ADMIN' => '[no address given]',
+  'SCRIPT_FILENAME' => 'C:/OpenServer/domains/queryagent.loc/index.php',
+  'REMOTE_PORT' => '25145',
+  'REDIRECT_URL' => '/user/finance/requestForQuestionnaire',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/user/finance/requestForQuestionnaire',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1428255147.5420001,
+  'REQUEST_TIME' => 1428255147,
+  'argv' => 
+  array (
+  ),
+  'argc' => 0,
+)
+2015/04/05 20:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "requestForQuestionnaire".' in C:\OpenServer\domains\queryagent.loc\yii\web\CController.php:484
+Stack trace:
+#0 C:\OpenServer\domains\queryagent.loc\yii\web\CController.php(271): CController->missingAction('requestForQuest...')
+#1 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(283): CController->run('requestForQuest...')
+#2 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(142): CWebApplication->runController('user/finance/re...')
+#3 C:\OpenServer\domains\queryagent.loc\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\queryagent.loc\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/finance/requestForQuestionnaire
+HTTP_REFERER=https://queryagent.loc/quiz/281/StructureQuiz
+---
+2015/04/05 20:38:24 [info] [application] User: choptver (ID: 153)
+
+$_POST=array (
+  'quiz_id' => '281',
+  'reqQuestDescription' => '',
+  'saveAndRedirect' => '',
+)
+
+$_COOKIE=array (
+  'PHPSESSID' => 'e4tp8aunb44sp2nhlhts2ee3h3',
+  'cabbb1323d6e92de72f7e2baea426b12' => '5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs:103:"eef58c9d354cc8ff8ad679ee299dd225c1c9d271a:4:{i:0;s:3:"153";i:1;s:8:"choptver";i:2;i:2592000;i:3;a:0:{}}";',
+  '_gat' => '1',
+  '_ga' => 'GA1.2.1027098907.1428165285',
+  '_ym_visorc_23332327' => 'w',
+)
+
+$_SESSION=array (
+  'cabbb1323d6e92de72f7e2baea426b12__id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12__name' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12__states' => 
+  array (
+  ),
+  'cabbb1323d6e92de72f7e2baea426b12email' => 'tver@chopchop.me',
+  'cabbb1323d6e92de72f7e2baea426b12username' => 'choptver',
+  'cabbb1323d6e92de72f7e2baea426b12create_at' => '2014-09-23 15:49:08',
+  'cabbb1323d6e92de72f7e2baea426b12lastvisit_at' => '0000-00-00 00:00:00',
+  'cabbb1323d6e92de72f7e2baea426b12balance' => '66999.99',
+  'cabbb1323d6e92de72f7e2baea426b12user_id' => '153',
+  'cabbb1323d6e92de72f7e2baea426b12first_name' => 'Администратор',
+  'cabbb1323d6e92de72f7e2baea426b12last_name' => 'Chop-Chop',
+)
+
+$_SERVER=array (
+  'REDIRECT_HTTPS' => 'on',
+  'REDIRECT_SSL_TLS_SNI' => 'queryagent.loc',
+  'REDIRECT_STATUS' => '200',
+  'HTTPS' => 'on',
+  'SSL_TLS_SNI' => 'queryagent.loc',
+  'HTTP_HOST' => 'queryagent.loc',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '49',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_ORIGIN' => 'https://queryagent.loc',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_REFERER' => 'https://queryagent.loc/quiz/281/StructureQuiz',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,bg;q=0.2',
+  'HTTP_COOKIE' => 'PHPSESSID=e4tp8aunb44sp2nhlhts2ee3h3; cabbb1323d6e92de72f7e2baea426b12=5b0fa334c96f8f4d385b1d64e12bb06b1e2f3a5cs%3A103%3A%22eef58c9d354cc8ff8ad679ee299dd225c1c9d271a%3A4%3A%7Bi%3A0%3Bs%3A3%3A%22153%22%3Bi%3A1%3Bs%3A8%3A%22choptver%22%3Bi%3A2%3Bi%3A2592000%3Bi%3A3%3Ba%3A0%3A%7B%7D%7D%22%3B; _gat=1; _ga=GA1.2.1027098907.1428165285; _ym_visorc_23332327=w',
+  'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.4\\ext;c:\\openserver\\modules\\php\\PHP-5.4\\pear;c:\\openserver\\modules\\php\\PHP-5.4\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.4;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\openserver\\modules\\http\\Apache-2.2\\bin;c:\\openserver\\modules\\http\\Apache-2.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.2.29 (Win32)',
+  'SERVER_NAME' => 'queryagent.loc',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '443',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/OpenServer/domains/queryagent.loc',
+  'SERVER_ADMIN' => '[no address given]',
+  'SCRIPT_FILENAME' => 'C:/OpenServer/domains/queryagent.loc/index.php',
+  'REMOTE_PORT' => '27277',
+  'REDIRECT_URL' => '/user/finance/requestForQuestionnaire',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/user/finance/requestForQuestionnaire',
+  'SCRIPT_NAME' => '/index.php',
+  'PHP_SELF' => '/index.php',
+  'REQUEST_TIME_FLOAT' => 1428255504.457,
+  'REQUEST_TIME' => 1428255504,
+  'argv' => 
+  array (
+  ),
+  'argc' => 0,
+)
+2015/04/05 20:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "requestForQuestionnaire".' in C:\OpenServer\domains\queryagent.loc\yii\web\CController.php:484
+Stack trace:
+#0 C:\OpenServer\domains\queryagent.loc\yii\web\CController.php(271): CController->missingAction('requestForQuest...')
+#1 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(283): CController->run('requestForQuest...')
+#2 C:\OpenServer\domains\queryagent.loc\yii\web\CWebApplication.php(142): CWebApplication->runController('user/finance/re...')
+#3 C:\OpenServer\domains\queryagent.loc\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\queryagent.loc\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/user/finance/requestForQuestionnaire
+HTTP_REFERER=https://queryagent.loc/quiz/281/StructureQuiz
+---
